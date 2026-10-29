@@ -1,0 +1,9 @@
+Review ID,User ID,Role,System,Access Level,Proposed Business Need,Reviewer,Review Decision,Finding,Required Action,Action Owner,Evidence Reference,Status
+AR-001,USR-001,Clinic Support,Clinic Management Application,Standard User,Support clinic workflows,Application Owner,Pending,Not Yet Assessed,Verify role and permissions,Application Owner,EV-AR-001,Not Started
+AR-002,USR-002,Database Administrator,Patient Database,Privileged,Database administration,IT Manager,Pending,Not Yet Assessed,Verify approval and least privilege,IT Manager,EV-AR-002,Not Started
+AR-003,USR-003,Finance Analyst,Billing System,Standard User,Billing and payment administration,Finance Manager,Pending,Not Yet Assessed,Verify access against job duties,Finance Manager,EV-AR-003,Not Started
+AR-004,USR-004,Former Employee,Microsoft 365,Standard User,No current business need assumed for this scenario,IT Manager,Pending,Potential Leaver Access,Confirm employment status and disable access if departure is verified,IT Manager,EV-AR-004,Not Started
+AR-005,USR-005,Developer,Source Code Repository,Write Access,Application development,Development Lead,Pending,Not Yet Assessed,Verify repository permissions and approval,Development Lead,EV-AR-005,Not Started
+AR-006,USR-006,Security Analyst,Security Event Logs,Read Access,Security monitoring,Security Lead,Pending,Not Yet Assessed,Verify access is appropriate for monitoring duties,Security Lead,EV-AR-006,Not Started
+AR-007,USR-007,IT Support,Microsoft 365,Global Administrator,IT support,IT Manager,Pending,Potential Excessive Privilege,Confirm necessity and approval; reduce privilege if unjustified,IT Manager,EV-AR-007,Not Started
+AR-008,USR-008,HR Analyst,HR Records,Standard User,HR administration,HR Manager,Pending,Not Yet Assessed,Verify access to confidential employee records,HR Manager,EV-AR-008,Not Started

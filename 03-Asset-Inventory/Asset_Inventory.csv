@@ -1,0 +1,26 @@
+Asset ID,Asset Name,Asset Type,Asset Owner,Location,Information Classification,Confidentiality Impact,Integrity Impact,Availability Impact,Status
+A001,Patient Database,Data,IT Manager,Azure Cloud,Restricted,5,5,5,Identified
+A002,Clinic Management Web Application,Application,CTO,Azure Cloud,Confidential,4,5,5,Identified
+A003,Patient Document Storage,Data,IT Manager,Azure Cloud,Restricted,5,5,4,Identified
+A004,Employee Laptops,Endpoint,IT Manager,Malta Office,Confidential,4,4,4,Identified
+A005,Microsoft 365 Tenant,Cloud Service,IT Manager,Cloud,Confidential,4,4,5,Identified
+A006,Source Code Repository,Application Data,CTO,Cloud,Confidential,4,5,4,Identified
+A007,Network Firewall,Network Infrastructure,IT Manager,Office,Internal,3,4,5,Identified
+A008,Backup System,Infrastructure,IT Manager,Azure Cloud,Restricted,5,5,5,Identified
+A009,Employee User Accounts,Identity,IT Manager,Cloud,Confidential,4,5,4,Identified
+A010,Customer Portal,Application,Product Manager,Azure Cloud,Confidential,4,4,5,Identified
+A011,Administrator Accounts,Identity,IT Manager,Cloud,Restricted,5,5,5,Identified
+A012,Authentication Service,Service,CTO,Cloud,Confidential,5,5,5,Identified
+A013,Security Event Logs,Data,Security Lead,Cloud,Confidential,4,5,4,Identified
+A014,Vulnerability Scanner,Security Tool,Security Lead,Cloud,Internal,3,4,3,Identified
+A015,HR Records,Data,HR Manager,Cloud,Restricted,5,4,3,Identified
+A016,Billing Records,Data,Finance Manager,Cloud,Confidential,5,5,4,Identified
+A017,Customer Contracts,Document,Account Manager,Cloud,Confidential,4,4,3,Identified
+A018,Development Environment,Infrastructure,CTO,Cloud,Internal,3,4,4,Identified
+A019,Production Environment,Infrastructure,CTO,Azure Cloud,Restricted,5,5,5,Identified
+A020,Encryption Keys and Secrets,Security Data,CTO,Cloud,Restricted,5,5,5,Identified
+A021,Incident Response Procedures,Document,Security Lead,Cloud,Internal,3,4,4,Identified
+A022,Security Policies,Document,Information Security Manager,Cloud,Internal,3,4,3,Identified
+A023,Third-Party Supplier Register,Document,Procurement Owner,Cloud,Confidential,3,4,3,Identified
+A024,Disaster Recovery Procedures,Document,IT Manager,Cloud,Internal,3,5,5,Identified
+A025,Staff Security Training Records,Data,HR Manager,Cloud,Confidential,3,4,3,Identified

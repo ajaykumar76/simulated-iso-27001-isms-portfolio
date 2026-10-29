@@ -1,0 +1,114 @@
+MedSecure Cloud Ltd.
+
+Access Control Policy
+
+Document ID: MSC-POL-002
+Version: 0.1
+Status: Draft — Pending Management Approval
+Owner: Proposed IT Manager
+Classification: Internal
+Review Frequency: At least annually and following significant changes
+
+1. Purpose
+
+This policy defines proposed rules for granting, reviewing, changing and removing access to MedSecure Cloud Ltd. information and systems. Its objective is to reduce unauthorized access and protect confidential information, including patient-related data.
+
+2. Scope
+
+This policy is proposed to apply to employees, contractors, administrators and other authorized users who access systems or information within the simulated ISMS scope.
+
+3. Access Control Principles
+
+Least privilege: Users should receive only the access required for their responsibilities.
+
+Need to know: Access to confidential information should be limited to authorized business purposes.
+
+Unique identities: Each user should have an individually attributable account wherever technically feasible.
+
+Separation of duties: Conflicting responsibilities should be separated where practical.
+
+Accountability: Access grants, changes, reviews and removals should be recorded.
+
+Secure authentication: Authentication must follow approved organizational security requirements.
+
+4. User Access Provisioning
+
+A designated manager should approve access before it is granted.
+
+Requests should identify the user, system, business justification and requested permissions.
+
+Access should be provisioned by an authorized administrator.
+
+Access granted should be compared with the approved request.
+
+Evidence of approval and provisioning should be retained.
+
+5. Privileged Accounts
+
+Administrative access should be restricted to authorized personnel.
+
+Privileged access should use separate administrative accounts where appropriate.
+
+Privileged accounts should not be used for routine activities unless justified.
+
+Multi-factor authentication should be enforced for privileged access where supported and required by the approved security standard.
+
+Privileged permissions should be reviewed periodically and after role changes.
+
+Emergency access should be controlled, logged and reviewed after use.
+
+6. Multi-Factor Authentication
+
+MFA should be required for privileged accounts and remote access, and for other systems according to the approved risk-based authentication standard.
+
+MFA configuration must be verified through actual configuration evidence or controlled tests. A policy statement alone does not prove MFA has been enabled.
+
+7. Access Reviews
+
+System owners should review access at a defined frequency based on risk. Reviews should check:
+
+Whether each account still has a valid business need.
+
+Whether permissions are appropriate to the user's role.
+
+Whether inactive, duplicate or unauthorized accounts exist.
+
+Whether privileged access remains justified.
+
+Whether identified issues have been corrected and documented.
+
+The review frequency must be defined and approved by the organization.
+
+8. Employee and Contractor Departures
+
+When employment or a contract ends, the responsible team should ensure access is disabled or removed promptly according to an approved offboarding process. The process should cover relevant cloud accounts, email, applications, remote access, physical access and credentials.
+
+Completion should be documented and verified.
+
+9. Role Changes
+
+When a person's duties change, access should be reassessed. Unnecessary permissions should be removed, and additional access should be granted only after appropriate approval.
+
+10. Authentication and Account Security
+
+Users must protect passwords, authentication tokens and other credentials. Credentials must not be shared or stored in unauthorized locations. Suspected credential compromise must be reported promptly.
+
+Shared accounts should be avoided unless there is a documented technical or operational justification and compensating accountability controls.
+
+11. Exceptions
+
+Exceptions must have a documented business justification, risk assessment, appropriate approval, compensating safeguards and a review or expiry date.
+
+12. Monitoring and Evidence
+
+Relevant access events should be logged where technically feasible and proportionate to risk. Evidence may include approved access requests, account inventories, configuration exports, access review records, MFA verification results and offboarding records.
+
+Evidence must be genuine, appropriately protected and traceable to the system or activity reviewed.
+
+13. Review and Approval
+
+Approving authority: To be designated
+Approval date: Pending
+Next review date: To be assigned after approval
+
+Simulation notice: This draft was prepared for a fictional-company learning portfolio. It has not been approved or implemented by a real organization.

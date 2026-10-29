@@ -1,0 +1,13 @@
+Evidence ID,Related Risk ID,Control ID,Evidence Requirement,Expected Evidence Source,Evidence Status,Reviewer,Review Date,Gap or Next Action
+EVD-001,R001,A.5.1,Information security policy approval,Information_Security_Policy.txt,Draft - Pending Approval,Not Assigned,Not Reviewed,Obtain simulated management approval for portfolio exercise
+EVD-002,R001,A.5.15,Access control requirements,Access_Control_Policy.txt,Draft - Pending Approval,Not Assigned,Not Reviewed,Review policy completeness and approval status
+EVD-003,R001,A.5.9,Asset inventory and ownership,Asset_Inventory.csv,To Validate,Not Assigned,Not Reviewed,Check asset records and confirm ownership assumptions
+EVD-004,R001,A.5.18,User access approvals and reviews,Access_Review_Register.csv,Sample Register Created,Not Assigned,Not Reviewed,Complete a sample review using documented evidence
+EVD-005,R002,A.8.5,MFA enforcement,Identity provider configuration export,Not Collected,Not Assigned,Not Reviewed,Define verification steps and collect genuine or clearly simulated configuration evidence
+EVD-006,R003,A.8.13,Backup configuration and restoration,Backup configuration and restoration test report,Not Collected,Not Assigned,Not Reviewed,Create a test plan and record a simulated outcome separately from a real test
+EVD-007,R004,A.8.8,Vulnerability assessment and remediation,Vulnerability assessment report and remediation tracker,Not Collected,Not Assigned,Not Reviewed,Define authorized assessment scope and remediation tracking process
+EVD-008,R005,A.8.15,Security logging,Logging configuration and sample events,Not Collected,Not Assigned,Not Reviewed,Identify required events and document evidence needed to verify collection
+EVD-009,R006,A.8.25,Secure development practices,Secure development procedure and code review records,Not Collected,Not Assigned,Not Reviewed,Define development review requirements and evidence
+EVD-010,R008,A.8.16,Security monitoring and alert testing,Monitoring procedure and alert test results,Not Collected,Not Assigned,Not Reviewed,Define a safe test scenario and expected alert evidence
+EVD-011,R009,A.5.19,Supplier security assessment,Supplier register and assessment records,Not Collected,Not Assigned,Not Reviewed,Identify critical suppliers in the fictional scenario and document assessment criteria
+EVD-012,R010,A.5.30,ICT continuity and recovery readiness,Recovery plan and exercise report,Not Collected,Not Assigned,Not Reviewed,Define recovery objectives and an exercise plan

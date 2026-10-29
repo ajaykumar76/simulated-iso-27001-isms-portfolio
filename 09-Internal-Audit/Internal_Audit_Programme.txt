@@ -1,0 +1,135 @@
+MedSecure Cloud Ltd.
+
+Internal Audit Programme
+
+Document ID: MSC-AUD-001
+Version: 0.1
+Status: Draft — Simulated Portfolio Exercise
+Programme Owner: Proposed GRC Owner
+Approval: Pending
+
+1. Objective
+
+Define a proposed internal audit programme for evaluating whether the fictional organization's planned ISMS documentation and selected information security controls meet defined requirements and are supported by appropriate evidence.
+
+2. Audit Scope
+
+The proposed audit covers:
+
+ISMS context and scope
+
+Asset inventory and information classification
+
+Risk assessment and risk treatment
+
+Statement of Applicability
+
+Information security and access control policies
+
+Access reviews and privileged access
+
+Evidence collection and retention
+
+Incident response, logging, backup, and vulnerability management documentation
+
+Corrective actions and management review
+
+3. Audit Criteria
+
+The proposed criteria include:
+
+Applicable requirements of ISO/IEC 27001:2022
+
+The organization's approved policies and procedures, once approved
+
+Applicable legal, regulatory, and contractual obligations, once validated
+
+Documented risk assessment and treatment criteria
+
+The full standard should be consulted for formal audit work.
+
+4. Audit Approach
+
+Confirm the audit scope, criteria, and objectives.
+
+Review relevant documents and available evidence.
+
+Interview responsible personnel where applicable.
+
+Test a suitable sample of controls where authorization and access permit.
+
+Record objective evidence and the basis for each conclusion.
+
+Document findings against specific requirements.
+
+Assign corrective actions where justified.
+
+Follow up and verify action effectiveness.
+
+5. Independence and Objectivity
+
+Auditors should be objective and impartial. Where practical, an auditor should not audit their own work. Audit activities should be conducted by competent individuals who are sufficiently independent of the activities being examined.
+
+6. Proposed Schedule
+
+Audit Area
+
+Proposed Timing
+
+Priority
+
+ISMS scope and documentation
+
+October 2026
+
+High
+
+Risk assessment and treatment
+
+October 2026
+
+High
+
+Access control and identity management
+
+November 2026
+
+High
+
+Logging, backup, and incident response
+
+November 2026
+
+High
+
+Corrective action follow-up
+
+December 2026
+
+Medium
+
+These dates are planning assumptions for the portfolio and have not been approved by an organization.
+
+7. Reporting
+
+The audit report should identify:
+
+Audit objective, scope, criteria, and date
+
+Activities and evidence examined
+
+Findings and supporting evidence
+
+Limitations and unresolved questions
+
+Recommended corrective actions
+
+Responsible owners and target dates
+
+8. Approval
+
+Programme approval: Pending
+Approved by: To be designated
+Approval date: Pending
+
+Simulation notice: This is a proposed audit programme for a fictional organization. No audit has been conducted or approved by a real organization.

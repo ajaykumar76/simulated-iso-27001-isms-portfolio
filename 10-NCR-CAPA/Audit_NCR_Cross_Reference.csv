@@ -1,0 +1,4 @@
+﻿"Audit ID","Finding Reference","NCR ID","Relationship","Status"
+"IA-008","F-IA008","NCR-001","Access review evidence gap","Open - Simulated"
+"IA-009","F-IA009","NCR-002","Privileged access review evidence gap","Open - Simulated"
+"IA-011","F-IA011","NCR-003","Backup restoration testing evidence gap","Open - Simulated"

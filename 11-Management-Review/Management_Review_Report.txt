@@ -1,0 +1,244 @@
+MedSecure Cloud Ltd.
+
+Information Security Management Review Report
+
+Document ID: MSC-MR-001
+Version: 0.1
+Status: Draft — Simulated Management Review
+Review Date: 13 October 2026
+Prepared By: Simulated Junior GRC Consultant
+Reviewing Authority: To be designated
+Approval Status: Not approved
+
+1. Purpose
+
+This report provides a simulated management review of the proposed Information Security Management System (ISMS) for MedSecure Cloud Ltd., a fictional Malta-based healthcare SaaS provider.
+
+The purpose is to evaluate the current state of the portfolio documentation, identify outstanding work, and recommend priorities for improving the proposed ISMS.
+
+This is a desktop portfolio exercise, not evidence that a real management review meeting occurred.
+
+2. Scope and Current Status
+
+The proposed ISMS covers the fictional company's healthcare SaaS services, supporting cloud infrastructure, relevant business information, personnel, and third-party dependencies as defined in the separate scope document.
+
+The portfolio contains draft documentation for company context, ISMS scope, interested parties, legal and compliance requirements, asset inventory, risk assessment methodology, risk assessment register, risk treatment plan, a starter Statement of Applicability, information security policies, access review, corrective actions, and evidence tracking.
+
+The presence of these documents does not establish that the ISMS is implemented or operating effectively.
+
+3. Status of Previous Management Actions
+
+No previous management review has been recorded for this fictional project.
+
+Status: Not applicable for this initial simulated review.
+
+4. Changes in Internal and External Issues
+
+The following matters are proposed for management consideration:
+
+The organization handles sensitive patient-related information.
+
+The service depends on cloud infrastructure and third-party providers.
+
+Unauthorized access, ransomware, application vulnerabilities, and service disruption are relevant risk scenarios.
+
+Applicable privacy, contractual, and information security requirements need validation.
+
+The organization needs to assign clear responsibilities for ISMS implementation and maintenance.
+
+These are scenario assumptions and must be validated in a real organizational context.
+
+5. Information Security Risk Status
+
+The starter risk register contains ten illustrative risks.
+
+Several risks have high or critical inherent scores under the project's simulated scoring methodology. The highest-priority examples include unauthorized access to the patient database and ransomware affecting patient document storage.
+
+The residual risk values remain unassessed. Proposed treatments have not been demonstrated as implemented.
+
+Management recommendation: Review the risk priorities, approve suitable treatment decisions, assign accountable owners, and define the process for residual-risk acceptance.
+
+6. Information Security Performance
+
+The portfolio currently demonstrates the design of documentation and evidence-tracking processes.
+
+The following operational measures have not yet been established through actual testing:
+
+Percentage of in-scope assets with verified ownership.
+
+Percentage of in-scope accounts reviewed.
+
+MFA coverage for applicable accounts.
+
+Timeliness of vulnerability remediation.
+
+Successful completion of backup restoration tests.
+
+Security incident response performance.
+
+Completion of security awareness training.
+
+Management recommendation: Define meaningful metrics, owners, targets, measurement methods, and review frequency before reporting performance.
+
+7. Internal Audit and Corrective Actions
+
+No completed internal audit has been documented for this portfolio.
+
+The NCR/CAPA register contains simulated documentation and evidence gaps. These entries must not be represented as findings from a real audit.
+
+Management recommendation: Establish an audit programme, define audit criteria and scope, preserve objective evidence, and track any genuine findings through correction and corrective action.
+
+8. Resource Requirements
+
+The proposed ISMS may require:
+
+Management time and defined accountability.
+
+IT support for access, configuration, logging, and backup verification.
+
+Development support for secure development and vulnerability remediation.
+
+GRC support for risk management, documentation, compliance tracking, and audit coordination.
+
+Appropriate tools and training.
+
+Actual resource requirements and budgets remain to be determined.
+
+9. Improvement Opportunities
+
+The following priorities are recommended for the next phase:
+
+Validate the scope, interested parties, and compliance obligations.
+
+Complete and quality-check the asset inventory.
+
+Review the risk scoring and confirm treatment priorities.
+
+Expand the starter SoA into a complete assessment of all 93 Annex A controls, with justified applicability decisions.
+
+Develop supporting policies and procedures.
+
+Define how evidence will be collected, reviewed, and retained.
+
+Conduct controlled tests of selected controls in an authorized lab or clearly labelled simulation.
+
+Prepare an internal audit programme and management review process.
+
+Establish measurable ISMS performance indicators.
+
+Record decisions, action owners, deadlines, and approval status.
+
+10. Proposed Management Decisions
+
+The following decisions are proposed for review; none is recorded as approved:
+
+Decision
+
+Proposed Outcome
+
+Status
+
+ISMS scope
+
+Review and approve scope
+
+Pending
+
+Risk treatment
+
+Confirm treatment priorities and owners
+
+Pending
+
+Residual risks
+
+Define authorized risk acceptance
+
+Pending
+
+ISMS resources
+
+Assess staffing, time, and tooling
+
+Pending
+
+Audit programme
+
+Establish an independent audit plan
+
+Pending
+
+Performance metrics
+
+Approve metrics and reporting frequency
+
+Pending
+
+11. Action Register
+
+Action
+
+Proposed Owner
+
+Target Date
+
+Status
+
+Validate scope and compliance register
+
+GRC Owner
+
+20 October 2026
+
+Not Started
+
+Review risk register and treatment priorities
+
+GRC Owner and IT Manager
+
+25 October 2026
+
+Not Started
+
+Complete SoA applicability assessment
+
+GRC Owner
+
+31 October 2026
+
+Not Started
+
+Define control evidence collection procedures
+
+IT Manager
+
+5 November 2026
+
+Not Started
+
+Prepare internal audit programme
+
+GRC Owner
+
+10 November 2026
+
+Not Started
+
+Dates are proposed planning assumptions for this portfolio, not approved company commitments.
+
+12. Conclusion
+
+The MedSecure Cloud Ltd. portfolio provides a foundation for demonstrating an ISO/IEC 27001:2022-aligned documentation and risk management workflow.
+
+However, significant work remains to validate assumptions, complete the control assessment, gather evidence, test control operation, establish performance measures, and document authorized decisions.
+
+No conclusion of conformity, certification readiness, or effective ISMS operation can be drawn from the current documentation alone.
+
+13. Approval Record
+
+Management reviewer: To be designated
+Meeting date: Not held
+Decision: Pending
+Approval date: Pending
+
+Simulation notice: This report was prepared for a fictional-company learning portfolio. No actual management review meeting has taken place, and no real organization has approved this report.

@@ -1,0 +1,118 @@
+MedSecure Cloud Ltd. — Information Security Risk Assessment Methodology
+
+Document ID: MSC-GRC-003
+Version: 1.0
+Status: Draft — Simulated Portfolio Project
+Date: 13 October 2026
+1. Purpose
+
+This methodology defines a consistent approach for identifying, analyzing, evaluating and prioritizing information security risks for the simulated MedSecure Cloud Ltd. environment.
+
+It is designed with reference to ISO/IEC 27001:2022 Clause 6.1.2.
+2. Risk Assessment Approach
+
+Risks will be assessed using scenarios that identify:
+
+    The affected information asset or business process.
+
+    The threat or initiating event.
+
+    The vulnerability or contributing condition.
+
+    The potential consequences for confidentiality, integrity and availability.
+
+    Existing controls and the evidence supporting their effectiveness.
+
+    The likelihood and impact ratings.
+
+    The resulting risk level and treatment decision.
+
+3. Likelihood Scale
+
+1 — Rare: The scenario is highly unlikely under the defined assessment conditions.
+
+2 — Unlikely: The scenario could occur, but is not expected under normal conditions.
+
+3 — Possible: The scenario could reasonably occur.
+
+4 — Likely: The scenario is expected to occur in many circumstances.
+
+5 — Almost Certain: The scenario is expected to occur frequently or is already occurring.
+
+Likelihood ratings must be justified using available evidence, relevant threat information, known weaknesses and expert judgment. They are not claims of statistically measured probability unless supporting data exists.
+4. Impact Scale
+
+1 — Insignificant: Minimal disruption or negligible information security consequences.
+
+2 — Minor: Limited disruption or low-level information loss affecting a small part of the business.
+
+3 — Moderate: Material operational disruption, recoverable data integrity issues or a significant internal security incident.
+
+4 — Major: Serious service disruption, significant sensitive-data exposure or substantial financial, contractual or regulatory consequences.
+
+5 — Severe: Extensive exposure of sensitive patient information, prolonged critical-service outage, major integrity compromise or potentially severe legal and business consequences.
+
+Assess the potential consequences for confidentiality, integrity and availability. Use the highest credible impact dimension unless a documented alternative aggregation method is approved.
+5. Risk Calculation
+
+Risk Score = Likelihood × Impact
+
+The minimum score is 1 and the maximum score is 25.
+6. Risk Rating Thresholds
+
+    Low: 1–4
+
+    Medium: 5–9
+
+    High: 10–16
+
+    Critical: 17–25
+
+These thresholds are proposed for this simulation and must be approved by management before use in a real organization.
+7. Risk Acceptance Criteria
+
+    Low risks may be considered acceptable subject to documented risk-owner review.
+
+    Medium risks require a documented decision by the designated risk owner.
+
+    High risks require a treatment plan or a formally justified acceptance by an appropriately authorized decision-maker.
+
+    Critical risks require prompt escalation to senior management and a documented treatment or exceptional acceptance decision.
+
+No risk is automatically accepted solely because it falls within a particular score band.
+8. Risk Treatment Options
+
+The proposed treatment options are:
+
+    Modify: Implement or improve controls to reduce the risk.
+
+    Avoid: Stop or change the activity creating the risk.
+
+    Share: Share some risk through appropriate contractual or other arrangements.
+
+    Accept: Formally retain the risk with an authorized decision and documented rationale.
+
+Sharing a risk does not eliminate the organization's remaining responsibilities.
+9. Inherent and Residual Risk
+
+Inherent risk is the risk before credit is given to existing controls.
+
+Residual risk is the risk remaining after existing or planned controls are considered. Planned controls must not be treated as implemented until appropriate evidence supports that conclusion.
+
+For this exercise, the same 1–5 likelihood and impact scales will be used for both ratings.
+10. Risk Ownership and Review
+
+Every identified risk must have an accountable risk owner.
+
+Risks must be reviewed periodically and when significant changes occur, including changes to systems, suppliers, threats, business processes or applicable requirements.
+
+Treatment decisions, residual risk assessments and acceptance decisions must be documented.
+11. Limitations
+
+This methodology is a proposed learning exercise. The ratings and thresholds are simulated and have not been approved by a real management team.
+
+Actual risk assessments require validation with relevant stakeholders and supporting evidence. This document does not establish ISO 27001 certification or conformity.
+
+Prepared by: Junior GRC Consultant — simulated role
+
+Approved by: Pending — simulated management approval

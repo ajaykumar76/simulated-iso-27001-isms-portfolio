@@ -1,0 +1,93 @@
+MedSecure Cloud Ltd.
+
+Information Security Policy
+
+Document ID: MSC-POL-001
+Version: 0.1
+Status: Draft — Pending Management Approval
+Document Owner: Proposed GRC Owner
+Review Frequency: At least annually and following significant changes
+
+1. Purpose
+
+This policy establishes the proposed information security principles and responsibilities for MedSecure Cloud Ltd., a fictional Malta-based healthcare software provider. It aims to protect the confidentiality, integrity and availability of company information, patient-related information and supporting systems.
+
+2. Scope
+
+This policy is proposed to apply to employees, contractors, relevant suppliers and other authorized users who access MedSecure Cloud Ltd. information or systems within the proposed ISMS scope.
+
+The detailed ISMS boundaries are documented separately in the ISMS Scope document.
+
+3. Policy Principles
+
+MedSecure Cloud Ltd. proposes to:
+
+Protect information against unauthorized access, disclosure, alteration, loss and destruction.
+
+Identify and assess information security risks using documented criteria.
+
+Assign responsibility for information security decisions and actions.
+
+Grant access according to business need and least privilege.
+
+Protect authentication credentials and use multi-factor authentication where required by the approved security standard.
+
+Maintain appropriate asset inventories and information classifications.
+
+Assess relevant third-party and cloud service risks.
+
+Manage vulnerabilities, system changes and security configurations.
+
+Maintain suitable logging, monitoring and incident response arrangements.
+
+Establish backup, recovery and business continuity arrangements appropriate to identified risks.
+
+Provide relevant information security awareness and training.
+
+Evaluate compliance obligations and retain appropriate evidence.
+
+Review information security performance and improve the proposed ISMS.
+
+4. Roles and Responsibilities
+
+Top Management: Proposed responsibility for approving the policy, assigning resources and reviewing significant information security risks.
+
+GRC Owner: Proposed responsibility for coordinating risk assessments, maintaining ISMS documentation and monitoring compliance activities.
+
+IT Manager: Proposed responsibility for access administration, system security configurations, asset management and backup arrangements.
+
+Development Lead: Proposed responsibility for secure development, vulnerability remediation and controlled production changes.
+
+All Personnel: Expected to follow approved policies, protect credentials, complete required training and report suspected security incidents.
+
+These role assignments are proposed for the simulation and have not been formally approved.
+
+5. Risk Management
+
+Information security risks should be identified, analyzed and evaluated using the documented risk assessment methodology. Risk treatment actions should have assigned owners, target dates and verification evidence.
+
+Residual risks requiring acceptance must be presented to an appropriately authorized decision-maker. Risk acceptance must be recorded and must not be assumed merely because a treatment action has been planned.
+
+6. Compliance and Incident Reporting
+
+Applicable legal, regulatory, contractual and customer requirements should be identified and periodically reviewed.
+
+Suspected information security incidents should be reported promptly through a designated reporting route. Incidents should be assessed, documented, investigated and managed according to an approved incident response procedure.
+
+7. Exceptions
+
+Exceptions to approved information security requirements should be documented, justified, risk-assessed and approved by an authorized person. Appropriate safeguards and review dates should be recorded.
+
+8. Monitoring and Review
+
+Compliance with this policy should be evaluated through appropriate reviews, evidence checks, internal audit activities and management review.
+
+The policy should be reviewed at least annually and when significant changes occur to the business, technology, risks or applicable requirements.
+
+9. Approval
+
+Approving authority: To be designated
+Approval date: Pending
+Next review date: To be assigned after approval
+
+Simulation notice: This document is a draft created for a learning portfolio. It has not been approved, implemented or independently audited by a real organization. It does not establish that MedSecure Cloud Ltd. is ISO/IEC 27001 certified.

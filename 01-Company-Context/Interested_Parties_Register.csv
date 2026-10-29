@@ -1,0 +1,9 @@
+Party ID,Interested Party,Requirement or Expectation,Requirement Type,How It Will Be Addressed,Evidence Required,Owner,Status
+IP-001,Patients,Protection of personal and medical information,Privacy and contractual,Access controls and privacy safeguards,Access control records and privacy documentation,Privacy Lead,To Validate
+IP-002,Medical Clinics,Confidentiality and availability of the platform,Contractual,Security controls and service continuity,Customer contracts and availability reports,Account Manager,To Validate
+IP-003,Employees,Clear security responsibilities and appropriate access,Internal,Security awareness and access management,Training records and access reviews,HR and IT Manager,To Validate
+IP-004,Top Management,Visibility of information security risks and performance,Business,ISMS objectives and management reviews,Risk register and management review minutes,Information Security Manager,To Validate
+IP-005,Cloud Provider,Compliance with shared cloud security responsibilities,Contractual and technical,Review service terms and provider documentation,Cloud contract and provider assurance documentation,IT Manager,To Validate
+IP-006,Regulators,Compliance with applicable legal requirements,Legal and regulatory,Identify and assess applicable obligations,Legal requirements register and compliance assessments,Compliance Owner,To Validate
+IP-007,External Suppliers,Clear security obligations and responsibilities,Contractual,Supplier security assessments and agreements,Supplier register and signed agreements,Procurement Owner,To Validate
+IP-008,Internal or External Auditors,Access to relevant audit evidence,Assurance,Maintain traceable records and audit documentation,Audit logs and document register,Information Security Manager,To Validate

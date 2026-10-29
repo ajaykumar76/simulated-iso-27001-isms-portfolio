@@ -1,0 +1,57 @@
+# MedSecure Cloud Ltd. — Company Profile
+
+**Document ID:** MSC-GRC-001  
+**Version:** 1.0  
+**Document Status:** Draft — Simulated Portfolio Project  
+**Date:** 10 October 2026
+
+## 1. Company Overview
+
+MedSecure Cloud Ltd. is a fictional Malta-based software-as-a-service (SaaS) provider that develops and operates a cloud-based clinic management platform for private medical clinics.
+
+The platform supports appointment scheduling, patient information management, document storage, billing and administrative reporting.
+
+## 2. Organization Details
+
+- **Location:** Malta
+- **Industry:** Healthcare technology / SaaS
+- **Employees:** 35 (assumed for this simulation)
+- **Customers:** Private medical clinics
+- **Cloud environment:** Microsoft Azure (assumed)
+- **IT team:** 5 employees (assumed)
+- **Security team:** 2 employees (assumed)
+- **Development team:** 8 employees (assumed)
+
+These figures are fictional assumptions for the portfolio exercise, not verified facts about a real organization.
+
+## 3. Information Assets
+
+The company processes or manages the following information and technology assets:
+
+- Patient information and medical documents
+- Customer and clinic account information
+- Employee records
+- Billing and financial records
+- Application source code
+- Cloud infrastructure and databases
+- User accounts and authentication data
+- Backups and security logs
+
+## 4. Business Objectives
+
+1. Protect the confidentiality, integrity and availability of customer information.
+2. Maintain reliable access to the clinic management platform.
+3. Identify and treat information security risks.
+4. Define security responsibilities and accountability.
+5. Evaluate relevant legal, regulatory and contractual requirements.
+6. Establish and continually improve an Information Security Management System (ISMS).
+
+## 5. Project Objective
+
+The objective of this simulated project is to design an ISO/IEC 27001:2022-aligned ISMS for MedSecure Cloud Ltd.
+
+The project will cover organizational context, ISMS scope, asset identification, information security risk assessment, risk treatment, control applicability, documented policies, internal audit and corrective actions.
+
+## 6. Important Disclaimer
+
+MedSecure Cloud Ltd. is fictional. This document represents a learning and portfolio exercise only. No real audit has been performed, no actual controls have been verified, and no ISO certification is claimed.
