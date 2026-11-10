@@ -50,3 +50,41 @@ The 23-risk working baseline is described in project notes as proposed and unapp
 ## Scope and integrity note
 
 All records in this repository belong to a fictional educational scenario. This log documents unresolved data-quality issues; it does not assert that the ISMS is implemented, audited, certified or approved.
+
+
+## Record-level comparison of the two published registers
+
+The following comparison is based on the two CSV files currently available on the repository's default branch. Matching IDs are **not** proof that the records refer to the same risk.
+
+| ID | Risk_Register.csv | Risk_Assessment_Register.csv | Reconciliation result |
+|---|---|---|---|
+| R001 | Patient Database — unauthorised access; excessive privileges; 4×5=20 Critical | Patient Database — unauthorised access; access permissions may be excessive; 4×5=20 Critical | Same broad scenario; wording and control evidence still need review |
+| R002 | Clinic Management Web Application — web exploitation; unpatched software; 4×5=20 Critical | Employee Accounts — credential theft; MFA may not be enforced; 4×4=16 High | Different assets and risk events; do not merge by ID |
+| R003 | Patient Document Storage — data leakage; incorrect storage permissions; 3×5=15 High | Patient Document Storage — ransomware; backup restoration may be untested; 4×5=20 Critical | Same asset, different threat/event and score; likely separate risk scenarios unless source owner decides otherwise |
+| R004 | Employee Laptops — device theft or malware; weak endpoint protection; 3×4=12 High | Clinic Management Web Application — web application attack; testing may be insufficient; 3×5=15 High | Different assets and risk events; do not merge by ID |
+| R005 | Microsoft 365 Tenant — account compromise; weak authentication settings; 4×4=16 High | Microsoft 365 Tenant — account compromise; legacy authentication or weak settings; 3×4=12 High | Broadly aligned scenario; likelihood conflicts (4 vs 3); evidence-based decision required |
+| R006 | Source Code Repository — unauthorised source-code access; excessive permissions; 3×4=12 High | Source Code Repository — source-code exposure; permissions or secrets handling may be weak; 3×4=12 High | Broadly aligned; confirm whether the vulnerability statement covers the same exposure |
+| R007 | Network Firewall — network intrusion; incorrect firewall rules; 3×4=12 High | Employee Laptops — device loss or compromise; encryption/endpoint status unknown; 3×4=12 High | Different assets and risk events; do not merge by ID |
+| R008 | Backup System — ransomware or backup deletion; insufficient isolation; 3×5=15 High | Security Event Logs — delayed incident detection; incomplete logging/alerting; 3×4=12 High | Different assets and risk events; do not merge by ID |
+| R009 | Employee User Accounts — privilege misuse; delayed access removal; 3×4=12 High | Third-Party Supplier Register — supplier security failure; incomplete due diligence; 3×4=12 High | Different assets and risk events; do not merge by ID |
+| R010 | Customer Portal — denial of service; insufficient resilience; 3×4=12 High | Production Environment — service disruption; untested disaster recovery; 3×5=15 High | Related availability theme, but different asset scope, event and score; do not merge without a documented decision |
+
+### Confirmed structural findings from this comparison
+
+1. The two registers share ten IDs but do not share a consistent ten-risk identity set.
+2. At least six of the ten same-ID pairs describe different assets and/or different risk events (R002, R004, R007, R008, R009 and R010).
+3. R003 describes two different risk scenarios on the same asset; it should not be treated as a simple score correction.
+4. R005 has a direct likelihood conflict (3 versus 4), producing scores of 12 and 16 under the stated multiplication method.
+5. R011–R020 appear only in the 20-row risk register; the assessment register has no corresponding records for them.
+6. The published risk-treatment-plan location has not yet been verified from the repository tree. Do not rely on a filename mentioned in README until its actual path and contents are confirmed.
+
+### Required correction sequence
+
+- Preserve both source CSV files as source snapshots; do not overwrite either one yet.
+- Create a crosswalk using the actual scenario fields, not the row IDs alone.
+- Assign stable canonical IDs only after duplicate, split and distinct-risk decisions are recorded.
+- Reconcile all 20 published risk-register records and all 10 assessment-register records against the proposed working baseline; account for every record.
+- Confirm the treatment-plan file's actual repository path and validate its risk IDs before claiming traceability.
+- Only then generate a draft consolidated register, label it **Draft — Pending Review**, and request simulated project-owner approval.
+
+**No risk has been merged, deleted, renumbered, rescored or approved by this comparison.**
