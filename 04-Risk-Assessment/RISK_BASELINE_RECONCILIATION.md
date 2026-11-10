@@ -112,3 +112,30 @@ Two records are deliberately left unresolved rather than assigned a misleading e
 
 The two unresolved Asset_ID values are marked `TBD` in the master register. Add and approve the missing asset records (including owner, classification, location and CIA rationale) before assigning IDs. The validator now checks risk-to-asset references and warns on `TBD`; it does not invent missing assets.
 
+## Published register lineage decision (10 November 2026)
+
+The repository contains two independent risk datasets. They are **not one canonical register** and must not be joined by the repeated R001–R010 identifiers alone.
+
+| Record set | Intended source | Scope | Downstream links |
+|---|---|---:|---|
+| Risk Assessment Register | `Risk_Assessment_Register.csv` | 10 assessed scenarios; residual risk remains Not Assessed | `Risk_Treatment_Plan.csv`, SoA `Related Risk IDs`, `GRC_Evidence_Tracker.csv` |
+| Master Risk Register | `Risk_Register.csv` | 20 asset-specific scenarios; status Open | `Evidence_Tracker.csv` |
+
+The following CSVs now contain an explicit `Risk Register Source` column to prevent accidental joins across the two datasets:
+- Treatment plan, SoA and GRC evidence tracker → `Risk_Assessment_Register.csv`
+- Legacy evidence tracker → `Risk_Register.csv`
+
+The leading blank line in `Evidence_Tracker.csv` has been removed. Its records are preserved and explicitly linked to the master register.
+
+## What is corrected and what remains unresolved
+
+- The risk-to-asset references that could be confirmed against the 25-row asset inventory were corrected in the master register.
+- R018 (Vulnerability Assessment Reports) and R020 (Customer Support Tickets) remain `TBD` because no matching asset records exist. Do not substitute the vulnerability scanner or another asset merely because the names are related.
+- The assessment-register R003 backup/restoration scenario and master-register R003 document-permission disclosure scenario are different risks on the same asset. Both are retained separately.
+- Same-numbered IDs with different scenarios (including R002, R004, and R007–R010) remain separate. The crosswalk documents those differences.
+- R005 has a likelihood conflict (3 versus 4). Both source values remain unchanged pending a documented risk-owner decision.
+- Residual risk values remain Not Assessed; treatment actions remain Not Started; evidence statuses remain as recorded. No implementation, approval, or effectiveness is implied by these edits.
+- The SoA contains 27 selected controls, not a completed review of all 93 Annex A controls.
+
+The validator checks arithmetic, source-register declarations, and selected cross-register references. A passing workflow is a structural data-quality check only; it is not approval of risk ratings, evidence, controls, audit conclusions, or ISO conformity.
+
