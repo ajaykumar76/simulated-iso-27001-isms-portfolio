@@ -76,7 +76,7 @@ The following comparison is based on the two CSV files currently available on th
 3. R003 describes two different risk scenarios on the same asset; it should not be treated as a simple score correction.
 4. R005 has a direct likelihood conflict (3 versus 4), producing scores of 12 and 16 under the stated multiplication method.
 5. R011–R020 appear only in the 20-row risk register; the assessment register has no corresponding records for them.
-6. The published risk-treatment-plan location has not yet been verified from the repository tree. Do not rely on a filename mentioned in README until its actual path and contents are confirmed.
+6. The repository tree confirms `05-Risk-Treatment/Risk_Treatment_Plan.csv` exists and contains ten actions (R001–R010). Its IDs align syntactically with the assessment register, but they cannot yet be assumed to align with the 20-row master register because several same-ID scenarios differ.
 
 ### Required correction sequence
 
@@ -88,3 +88,12 @@ The following comparison is based on the two CSV files currently available on th
 - Only then generate a draft consolidated register, label it **Draft — Pending Review**, and request simulated project-owner approval.
 
 **No risk has been merged, deleted, renumbered, rescored or approved by this comparison.**
+
+
+## Verified treatment-plan traceability finding
+
+The published treatment plan contains ten rows, R001–R010. These identifiers mirror the assessment register, not necessarily the 20-row master risk register. Because same-numbered records can describe different assets and events, the treatment plan must remain linked to its originating assessment-register snapshot until a controlled crosswalk is approved. Do not copy or relabel treatment actions against the master register solely because the IDs match.
+
+## Rating terminology correction
+
+The master risk register uses the methodology's numeric thresholds. Two records previously used the label `Moderate` for scores of 8 and 9, while the methodology defines that band as `Medium` (5–9). The labels for R016 (8) and R018 (9) have been corrected to `Medium`. Treatment terminology in the master register has also been normalised from `Mitigate` to the methodology's `Modify` option. This is a terminology correction only; it does not mean any control has been implemented or any risk reduced.
