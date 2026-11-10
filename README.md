@@ -34,6 +34,10 @@ The files currently published in this repository are **not yet a single reconcil
 
 The latest working project notes describe a 23-risk canonical reconciliation, but that baseline is not present in this GitHub snapshot. Therefore, this repository's 20-row and 10-row risk files must not be presented as reconciled or final.
 
+## Risk baseline reconciliation
+
+See [`04-Risk-Assessment/RISK_BASELINE_RECONCILIATION.md`](04-Risk-Assessment/RISK_BASELINE_RECONCILIATION.md) for the known R003, R004, R005 and R021/R023 discrepancies, the safe handling rules, and the acceptance criteria for approving a single master register. The log deliberately does not select values or claim approval where the source records conflict.
+
 ## Risk methodology
 
 The documented exercise uses a 1–5 likelihood scale and a 1–5 impact scale. The inherent score is calculated as likelihood multiplied by impact. Risk ratings and acceptance criteria remain subject to the methodology and approval process documented in the project.
