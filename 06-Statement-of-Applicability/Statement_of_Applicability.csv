@@ -1,28 +1,28 @@
-Control ID,Control Name,Applicable,Justification,Implementation Status,Required Evidence,Related Risk IDs,Owner
-A.5.1,Policies for information security,Yes,Policies are needed to direct information security across the organization,Planned,Approved information security policy,R001;R002;R008,GRC Owner
-A.5.2,Information security roles and responsibilities,Yes,Responsibilities must be assigned for the ISMS,Planned,Roles and responsibilities matrix,All,GRC Owner
-A.5.7,Threat intelligence,Yes,Relevant threats to healthcare SaaS and cloud services should be monitored,Planned,Threat monitoring procedure and review records,R003;R004;R008,Security Lead
-A.5.9,Inventory of information and other associated assets,Yes,Assets must be identified and their ownership assigned,In Progress,Asset inventory and owner review,R001;R003;R006,IT Manager
-A.5.15,Access control,Yes,Access to patient information and business systems must be restricted,Planned,Access control policy and access review records,R001;R006,IT Manager
-A.5.16,Identity management,Yes,Identity lifecycle must be managed for employees and administrators,Planned,Account lifecycle procedure and account review,R002;R005,IT Manager
-A.5.17,Authentication information,Yes,Authentication secrets must be protected,Planned,Credential handling procedure and configuration evidence,R002;R005,IT Manager
-A.5.18,Access rights,Yes,Access rights must be granted and reviewed appropriately,Planned,Access approvals and periodic review records,R001;R006,IT Manager
-A.5.19,Information security in supplier relationships,Yes,Cloud and other suppliers may affect information security,Planned,Supplier security register and assessments,R009,GRC Owner
-A.5.23,Information security for use of cloud services,Yes,The scenario relies on cloud-hosted services,Planned,Cloud security responsibilities and configuration review,R001;R005;R010,IT Manager
-A.5.24,Information security incident management planning and preparation,Yes,Incident response responsibilities and preparation are required,Planned,Incident response plan and exercise records,R008,Security Lead
-A.5.26,Response to information security incidents,Yes,Security incidents require defined response procedures,Planned,Incident response procedure and incident records,R008,Security Lead
-A.5.30,ICT readiness for business continuity,Yes,The service needs recovery arrangements for disruption,Planned,Continuity and recovery plans and test results,R003;R010,IT Manager
-A.6.3,Information security awareness education and training,Yes,Personnel need appropriate security awareness,Planned,Training materials and completion records,R002;R007,GRC Owner
-A.7.7,Clear desk and clear screen,Yes,Workplace practices may expose confidential information,Planned,Clear desk and clear screen policy,R001,GRC Owner
-A.7.10,Storage media,Yes,Storage media may contain confidential or personal information,Planned,Media handling and disposal procedure,R001;R003,IT Manager
-A.8.2,Privileged access rights,Yes,Administrative privileges could enable major compromise,Planned,Privileged account inventory and review,R001;R005,IT Manager
-A.8.5,Secure authentication,Yes,Strong authentication reduces unauthorized access risk,Planned,Authentication settings and MFA verification,R002;R005,IT Manager
-A.8.8,Management of technical vulnerabilities,Yes,The application and infrastructure may contain exploitable vulnerabilities,Planned,Vulnerability assessment and remediation tracker,R004;R006,Development Lead
-A.8.9,Configuration management,Yes,Secure configurations are needed for cloud and production systems,Planned,Configuration baseline and review records,R005;R010,IT Manager
-A.8.13,Information backup,Yes,Information must be recoverable after loss or ransomware,Planned,Backup configuration and restoration test report,R003;R010,IT Manager
-A.8.15,Logging,Yes,Security-relevant activities need suitable logging,Planned,Logging configuration and sample records,R005;R008,Security Lead
-A.8.16,Monitoring activities,Yes,Monitoring helps identify anomalous activity,Planned,Monitoring procedure and alert test evidence,R002;R008,Security Lead
-A.8.24,Use of cryptography,Yes,Cryptographic protections may be needed for stored and transmitted sensitive information,Planned,Encryption configuration and key management procedure,R001;R003,IT Manager
-A.8.25,Secure development life cycle,Yes,The scenario includes a developed clinic management application,Planned,Secure development procedure and review evidence,R004;R006,Development Lead
-A.8.28,Secure coding,Yes,Secure coding practices can reduce application vulnerabilities,Planned,Coding standard and code review records,R004;R006,Development Lead
-A.8.32,Change management,Yes,Changes to production systems need controlled handling,Planned,Change records and approval evidence,R004;R010,Development Lead
+Control ID,Control Name,Applicable,Justification,Implementation Status,Required Evidence,Related Risk IDs,Owner,Risk Register Source
+A.5.1,Policies for information security,Yes,Policies are needed to direct information security across the organization,Planned,Approved information security policy,R001;R002;R008,GRC Owner,Risk_Assessment_Register.csv
+A.5.2,Information security roles and responsibilities,Yes,Responsibilities must be assigned for the ISMS,Planned,Roles and responsibilities matrix,All,GRC Owner,Risk_Assessment_Register.csv
+A.5.7,Threat intelligence,Yes,Relevant threats to healthcare SaaS and cloud services should be monitored,Planned,Threat monitoring procedure and review records,R003;R004;R008,Security Lead,Risk_Assessment_Register.csv
+A.5.9,Inventory of information and other associated assets,Yes,Assets must be identified and their ownership assigned,In Progress,Asset inventory and owner review,R001;R003;R006,IT Manager,Risk_Assessment_Register.csv
+A.5.15,Access control,Yes,Access to patient information and business systems must be restricted,Planned,Access control policy and access review records,R001;R006,IT Manager,Risk_Assessment_Register.csv
+A.5.16,Identity management,Yes,Identity lifecycle must be managed for employees and administrators,Planned,Account lifecycle procedure and account review,R002;R005,IT Manager,Risk_Assessment_Register.csv
+A.5.17,Authentication information,Yes,Authentication secrets must be protected,Planned,Credential handling procedure and configuration evidence,R002;R005,IT Manager,Risk_Assessment_Register.csv
+A.5.18,Access rights,Yes,Access rights must be granted and reviewed appropriately,Planned,Access approvals and periodic review records,R001;R006,IT Manager,Risk_Assessment_Register.csv
+A.5.19,Information security in supplier relationships,Yes,Cloud and other suppliers may affect information security,Planned,Supplier security register and assessments,R009,GRC Owner,Risk_Assessment_Register.csv
+A.5.23,Information security for use of cloud services,Yes,The scenario relies on cloud-hosted services,Planned,Cloud security responsibilities and configuration review,R001;R005;R010,IT Manager,Risk_Assessment_Register.csv
+A.5.24,Information security incident management planning and preparation,Yes,Incident response responsibilities and preparation are required,Planned,Incident response plan and exercise records,R008,Security Lead,Risk_Assessment_Register.csv
+A.5.26,Response to information security incidents,Yes,Security incidents require defined response procedures,Planned,Incident response procedure and incident records,R008,Security Lead,Risk_Assessment_Register.csv
+A.5.30,ICT readiness for business continuity,Yes,The service needs recovery arrangements for disruption,Planned,Continuity and recovery plans and test results,R003;R010,IT Manager,Risk_Assessment_Register.csv
+A.6.3,Information security awareness education and training,Yes,Personnel need appropriate security awareness,Planned,Training materials and completion records,R002;R007,GRC Owner,Risk_Assessment_Register.csv
+A.7.7,Clear desk and clear screen,Yes,Workplace practices may expose confidential information,Planned,Clear desk and clear screen policy,R001,GRC Owner,Risk_Assessment_Register.csv
+A.7.10,Storage media,Yes,Storage media may contain confidential or personal information,Planned,Media handling and disposal procedure,R001;R003,IT Manager,Risk_Assessment_Register.csv
+A.8.2,Privileged access rights,Yes,Administrative privileges could enable major compromise,Planned,Privileged account inventory and review,R001;R005,IT Manager,Risk_Assessment_Register.csv
+A.8.5,Secure authentication,Yes,Strong authentication reduces unauthorized access risk,Planned,Authentication settings and MFA verification,R002;R005,IT Manager,Risk_Assessment_Register.csv
+A.8.8,Management of technical vulnerabilities,Yes,The application and infrastructure may contain exploitable vulnerabilities,Planned,Vulnerability assessment and remediation tracker,R004;R006,Development Lead,Risk_Assessment_Register.csv
+A.8.9,Configuration management,Yes,Secure configurations are needed for cloud and production systems,Planned,Configuration baseline and review records,R005;R010,IT Manager,Risk_Assessment_Register.csv
+A.8.13,Information backup,Yes,Information must be recoverable after loss or ransomware,Planned,Backup configuration and restoration test report,R003;R010,IT Manager,Risk_Assessment_Register.csv
+A.8.15,Logging,Yes,Security-relevant activities need suitable logging,Planned,Logging configuration and sample records,R005;R008,Security Lead,Risk_Assessment_Register.csv
+A.8.16,Monitoring activities,Yes,Monitoring helps identify anomalous activity,Planned,Monitoring procedure and alert test evidence,R002;R008,Security Lead,Risk_Assessment_Register.csv
+A.8.24,Use of cryptography,Yes,Cryptographic protections may be needed for stored and transmitted sensitive information,Planned,Encryption configuration and key management procedure,R001;R003,IT Manager,Risk_Assessment_Register.csv
+A.8.25,Secure development life cycle,Yes,The scenario includes a developed clinic management application,Planned,Secure development procedure and review evidence,R004;R006,Development Lead,Risk_Assessment_Register.csv
+A.8.28,Secure coding,Yes,Secure coding practices can reduce application vulnerabilities,Planned,Coding standard and code review records,R004;R006,Development Lead,Risk_Assessment_Register.csv
+A.8.32,Change management,Yes,Changes to production systems need controlled handling,Planned,Change records and approval evidence,R004;R010,Development Lead,Risk_Assessment_Register.csv
