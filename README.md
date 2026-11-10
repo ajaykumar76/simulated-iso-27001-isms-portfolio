@@ -1,90 +1,71 @@
-﻿# MedSecure Cloud Ltd. — Simulated ISO/IEC 27001:2022 ISMS Project
+# MedSecure Cloud Ltd. — Simulated ISO/IEC 27001:2022 ISMS Portfolio
 
-## Project overview
+**Portfolio status: educational simulation; documentation is not fully reconciled or approved.**
 
-This is a fictional, hands-on Governance, Risk and Compliance (GRC)
-portfolio project demonstrating selected activities involved in planning,
-documenting and reviewing an Information Security Management System (ISMS).
+MedSecure Cloud Ltd. is a fictional Malta-based healthcare SaaS provider used for this independent learning project. The repository demonstrates selected ISMS documentation activities. It is not a client engagement, operational ISMS, certification assessment or professional audit delivery.
 
-The scenario is a Malta-based healthcare SaaS provider handling sensitive
-customer and health-related information.
+## Project contents currently published
 
-## Objectives
+- Company context and interested-party records
+- Proposed ISMS scope
+- Asset inventory with 25 sample assets
+- Risk methodology and two risk-related CSV registers
+- Risk treatment plan
+- Starter Statement of Applicability covering 27 selected Annex A controls
+- Draft information-security and access-control policies
+- Evidence and access-review trackers
+- Internal audit checklist and simulated findings
+- Simulated NCR/CAPA register
+- Draft management-review and audit-programme documents
 
-- Define a proposed ISMS scope and organizational context.
-- Identify information security assets and interested parties.
-- Develop a risk assessment methodology and risk register.
-- Prepare a risk treatment plan and a starter Statement of Applicability.
-- Draft information security policies.
-- Develop an internal audit checklist and simulated findings.
-- Record corrective actions and map them to audit findings.
-- Identify missing evidence and outstanding approval requirements.
+## Important reconciliation warning
 
-## Work completed
+The files currently published in this repository are **not yet a single reconciled baseline**:
 
-- Asset inventory with 25 sample assets.
-- Risk assessment register with 10 simulated risks.
-- Risk treatment plan with 10 proposed treatment actions.
-- Starter Statement of Applicability covering 27 selected controls.
-- Draft information security and access control policies.
-- Internal audit checklist with 15 simulated findings.
-- NCR/CAPA register with 3 simulated issues.
-- Audit-to-NCR cross-reference register with 3 mappings.
-- Draft management review and internal audit programme documents.
+| File | Current repository state | Required action |
+|---|---|---|
+| `Risk_Register.csv` | 20 risk records (R001–R020) | Reconcile with the latest working risk baseline before treating as canonical |
+| `Risk_Assessment_Register.csv` | 10 different risk records (R001–R010); residual likelihood and impact are `Not Assessed`; existing controls are `To Validate` | Do not infer residual risk or control effectiveness |
+| `Risk_Treatment_Plan.csv` | 10 treatment actions, all `Not Started` | Track only after owner review; retain evidence of progress |
+| `Statement_of_Applicability.csv` | 27 selected controls; statuses include `Planned` and `In Progress` | This is a starter selection, not the complete Annex A assessment |
+| Evidence trackers | Multiple overlapping tracker formats | Select and document one canonical tracker after reconciliation |
+| `Evidence_Register.csv` | Empty file | Removed as an empty placeholder; use the populated trackers pending consolidation |
+| `NCR_CAPA_Register.csv` | 3 records marked `Open - Simulated` | Do not claim closure or effectiveness |
 
-## Methodology
+The latest working project notes describe a 23-risk canonical reconciliation, but that baseline is not present in this GitHub snapshot. Therefore, this repository's 20-row and 10-row risk files must not be presented as reconciled or final.
 
-The sample risk methodology uses a 1–5 likelihood score multiplied by a
-1–5 impact score. Risk acceptance criteria and ratings are documented in
-the project files and remain subject to organizational approval.
+## Risk methodology
 
-The audit exercise records evidence gaps, proposed corrective actions,
-owners, target dates and effectiveness checks.
+The documented exercise uses a 1–5 likelihood scale and a 1–5 impact scale. The inherent score is calculated as likelihood multiplied by impact. Risk ratings and acceptance criteria remain subject to the methodology and approval process documented in the project.
 
-## Important limitations
+Residual risk must not be invented. It should only be recorded after the proposed treatment has been assessed against evidence and the risk owner has reviewed the result. Until then, use `Not Assessed` rather than a guessed score.
 
-- MedSecure Cloud Ltd. is fictional.
-- This is a simulated learning project, not a real client engagement.
-- No real organizational audit or certification has been performed.
-- The Statement of Applicability is a starter document, not a complete
-  assessment of all 93 Annex A controls.
-- Policies, scope, risk decisions and management review remain subject to
-  review and approval.
-- Proposed treatment actions are not evidence of implemented controls.
-- Findings and NCRs are simulated and remain open in this exercise.
-- No real personal, patient or confidential business data is included.
+## Audit and evidence status
 
-## Skills demonstrated
+The audit checklist and NCR/CAPA records are simulated learning artefacts. A finding marked `Needs Improvement` or `Open - Simulated` is not evidence of an actual organisational nonconformity. Proposed controls and evidence requirements do not prove implementation. Evidence that has not been collected or reviewed must remain clearly marked as such.
 
-- ISO/IEC 27001:2022 ISMS documentation
-- Asset inventory and information security risk assessment
-- Risk treatment planning
+## Learning objectives demonstrated
+
+- ISMS scope and organisational context
+- Asset inventory and ownership
+- Information-security risk assessment and treatment planning
 - Statement of Applicability preparation
 - Policy drafting
-- Internal audit checklist development
-- Finding documentation and corrective-action tracking
-- Evidence-gap analysis and traceability
-- CSV validation using Windows PowerShell
+- Evidence-gap analysis
+- Internal audit checklist design
+- Simulated findings and corrective-action tracking
+- Documentation quality and traceability
 
-## Project structure
+## Known limitations and next work
 
-The numbered folders organize company context, ISMS scope, assets, risks,
-risk treatment, the Statement of Applicability, policies, evidence,
-internal audit, corrective actions, management review and final reporting.
-
-## Next improvements
-
-- Review the scope and methodology against the intended business scenario.
-- Complete and validate the full Statement of Applicability.
-- Gather or create clearly labelled sample evidence for selected controls.
-- Record residual risk assessments and authorized risk acceptance.
-- Expand the audit programme and document objective evidence.
-- Complete corrective actions and effectiveness checks in the simulation.
-- Record a simulated management review only after documenting its inputs,
-  decisions, actions and approvals.
+1. Reconcile the latest local 23-risk baseline with the GitHub files; do not merge conflicting rows by assumption.
+2. Resolve known risk mapping/score differences through documented decisions by the project author, not silent edits.
+3. Connect each risk to its treatment, applicable controls, evidence requirements and any related simulated finding/CAPA.
+4. Consolidate duplicate evidence trackers and remove obsolete backups only after comparing their contents.
+5. Complete residual-risk assessments only when the treatment and supporting evidence justify them.
+6. Review the selected controls and applicability justifications; do not describe the 27-control starter SoA as a complete Annex A review.
+7. Keep approvals, control implementation and effectiveness clearly marked as pending unless evidence supports a change.
 
 ## Disclaimer
 
-This project is provided for educational and portfolio purposes. It does
-not constitute certification, legal advice, or evidence that an operating
-organization conforms to ISO/IEC 27001:2022.
+This is a fictional, educational portfolio exercise. It does not constitute ISO/IEC 27001 certification, legal advice, an independent audit, or evidence that a real organisation conforms to the standard. No real patient or customer data should be stored in this repository.
