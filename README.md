@@ -20,13 +20,13 @@ MedSecure Cloud Ltd. is a fictional Malta-based healthcare SaaS provider used fo
 
 ## Important reconciliation warning
 
-The files currently published in this repository are **not yet a single reconciled baseline**:
+The files currently published in this repository are **not yet a single reconciled baseline**. The `04-Risk-Assessment/` directory currently contains the reconciliation log, methodology, and two risk CSVs; it does not contain a published risk-treatment-plan CSV:
 
 | File | Current repository state | Required action |
 |---|---|---|
 | `Risk_Register.csv` | 20 risk records (R001–R020) | Reconcile with the latest working risk baseline before treating as canonical |
 | `Risk_Assessment_Register.csv` | 10 different risk records (R001–R010); residual likelihood and impact are `Not Assessed`; existing controls are `To Validate` | Do not infer residual risk or control effectiveness |
-| `Risk_Treatment_Plan.csv` | 10 treatment actions, all `Not Started` | Track only after owner review; retain evidence of progress |
+| `Risk_Treatment_Plan.csv` | Not present in the published `04-Risk-Assessment/` directory at the time of review | Locate and publish the authoritative treatment-plan source only after confirming its contents and risk-ID references |
 | `Statement_of_Applicability.csv` | 27 selected controls; statuses include `Planned` and `In Progress` | This is a starter selection, not the complete Annex A assessment |
 | Evidence trackers | Multiple overlapping tracker formats | Select and document one canonical tracker after reconciliation |
 | `Evidence_Register.csv` | Empty file | Removed as an empty placeholder; use the populated trackers pending consolidation |
@@ -62,13 +62,13 @@ The audit checklist and NCR/CAPA records are simulated learning artefacts. A fin
 
 ## Known limitations and next work
 
-1. Reconcile the latest local 23-risk baseline with the GitHub files; do not merge conflicting rows by assumption.
-2. Resolve known risk mapping/score differences through documented decisions by the project author, not silent edits.
-3. Connect each risk to its treatment, applicable controls, evidence requirements and any related simulated finding/CAPA.
-4. Consolidate duplicate evidence trackers and remove obsolete backups only after comparing their contents.
-5. Complete residual-risk assessments only when the treatment and supporting evidence justify them.
-6. Review the selected controls and applicability justifications; do not describe the 27-control starter SoA as a complete Annex A review.
-7. Keep approvals, control implementation and effectiveness clearly marked as pending unless evidence supports a change.
+1. Locate and verify the authoritative treatment-plan source; do not describe an unpublished local file as part of the GitHub repository.\n2. Reconcile the latest local 23-risk baseline with the GitHub files; do not merge conflicting rows by assumption.
+3. Resolve known risk mapping/score differences through documented decisions by the project author, not silent edits.
+4. Connect each risk to its treatment, applicable controls, evidence requirements and any related simulated finding/CAPA.
+5. Consolidate duplicate evidence trackers and remove obsolete backups only after comparing their contents.
+6. Complete residual-risk assessments only when the treatment and supporting evidence justify them.
+7. Review the selected controls and applicability justifications; do not describe the 27-control starter SoA as a complete Annex A review.
+8. Keep approvals, control implementation and effectiveness clearly marked as pending unless evidence supports a change.
 
 ## Disclaimer
 
