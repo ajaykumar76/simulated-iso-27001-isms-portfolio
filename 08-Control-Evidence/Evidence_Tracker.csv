@@ -1,12 +1,11 @@
-
-Evidence_ID,Related_Risk_ID,Control_Area,Evidence_Required,Evidence_Owner,Collection_Status,Review_Result,File_Location,Notes
-EV001,R001,Database access,Approved database access matrix and access review,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV001,Simulated requirement; evidence not yet obtained
-EV002,R002,Vulnerability management,Web application vulnerability scan and remediation record,CTO,Not collected,Not reviewed,08-Control-Evidence/EV002,Do not claim a scan was performed
-EV003,R004,Endpoint security,Endpoint protection and disk encryption status,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV003,Simulated requirement; evidence not yet obtained
-EV004,R006,Source code access,Repository permissions and access review,Development Lead,Not collected,Not reviewed,08-Control-Evidence/EV004,Simulated requirement; evidence not yet obtained
-EV005,R007,Network security,Firewall rules review and approved change records,Network Administrator,Not collected,Not reviewed,08-Control-Evidence/EV005,Simulated requirement; evidence not yet obtained
-EV006,R008,Backup and recovery,Backup policy and restoration test report,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV006,Do not claim a restoration test was performed
-EV007,R009,Identity lifecycle,Joiner-mover-leaver records and access revocation evidence,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV007,Simulated requirement; evidence not yet obtained
-EV008,R012,Logging and monitoring,Logging configuration and monitoring review records,Security Lead,Not collected,Not reviewed,08-Control-Evidence/EV008,Simulated requirement; evidence not yet obtained
-EV009,R016,Contractual obligations,Customer security obligations register,Compliance Lead,Not collected,Not reviewed,08-Control-Evidence/EV009,Simulated requirement; evidence not yet obtained
-EV010,R019,Secrets management,Secrets inventory and key-management configuration evidence,Cloud Administrator,Not collected,Not reviewed,08-Control-Evidence/EV010,Never place real secrets or passwords in this tracker
+Evidence_ID,Related_Risk_ID,Control_Area,Evidence_Required,Evidence_Owner,Collection_Status,Review_Result,File_Location,Notes,Risk Register Source
+EV001,R001,Database access,Approved database access matrix and access review,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV001,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV002,R002,Vulnerability management,Web application vulnerability scan and remediation record,CTO,Not collected,Not reviewed,08-Control-Evidence/EV002,Do not claim a scan was performed,Risk_Register.csv
+EV003,R004,Endpoint security,Endpoint protection and disk encryption status,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV003,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV004,R006,Source code access,Repository permissions and access review,Development Lead,Not collected,Not reviewed,08-Control-Evidence/EV004,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV005,R007,Network security,Firewall rules review and approved change records,Network Administrator,Not collected,Not reviewed,08-Control-Evidence/EV005,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV006,R008,Backup and recovery,Backup policy and restoration test report,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV006,Do not claim a restoration test was performed,Risk_Register.csv
+EV007,R009,Identity lifecycle,Joiner-mover-leaver records and access revocation evidence,IT Manager,Not collected,Not reviewed,08-Control-Evidence/EV007,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV008,R012,Logging and monitoring,Logging configuration and monitoring review records,Security Lead,Not collected,Not reviewed,08-Control-Evidence/EV008,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV009,R016,Contractual obligations,Customer security obligations register,Compliance Lead,Not collected,Not reviewed,08-Control-Evidence/EV009,Simulated requirement; evidence not yet obtained,Risk_Register.csv
+EV010,R019,Secrets management,Secrets inventory and key-management configuration evidence,Cloud Administrator,Not collected,Not reviewed,08-Control-Evidence/EV010,Never place real secrets or passwords in this tracker,Risk_Register.csv
