@@ -74,3 +74,15 @@ The audit checklist and NCR/CAPA records are simulated learning artefacts. A fin
 ## Disclaimer
 
 This is a fictional, educational portfolio exercise. It does not constitute ISO/IEC 27001 certification, legal advice, an independent audit, or evidence that a real organisation conforms to the standard. No real patient or customer data should be stored in this repository.
+
+
+## Local data-quality validation
+
+From the repository root, run:
+
+```bash
+python scripts/validate_portfolio.py
+```
+
+The script checks numeric risk-score/rating consistency and flags unresolved cross-register references. Warnings about matching IDs are intentional: the two published risk registers contain different scenarios under some identical IDs. The validator does not merge records or decide risk ownership. Review [the reconciliation log](04-Risk-Assessment/RISK_BASELINE_RECONCILIATION.md) before joining records.
+
