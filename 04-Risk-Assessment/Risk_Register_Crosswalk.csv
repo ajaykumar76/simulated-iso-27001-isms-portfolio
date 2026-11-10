@@ -1,0 +1,11 @@
+Assessment_Register_ID,Assessment_Scenario,Master_Register_ID,Master_Scenario,Relationship,Decision,Reason
+R001,Patient Database - unauthorized access,R001,Patient Database - unauthorized access,Aligned provisionally,Keep linked pending owner review,Same broad asset and event; verify control wording and source evidence
+R002,Employee Accounts - credential theft,R002,Clinic Management Web Application - web exploitation,Distinct,Do not merge,Different assets and threat events
+R003,Patient Document Storage - ransomware and untested restoration,R003,Patient Document Storage - data leakage from incorrect permissions,Distinct scenarios on same asset,Keep as separate risk scenarios pending owner review,Backup compromise and unauthorized disclosure are different events
+R004,Clinic Management Web Application - web application attack,R004,Employee Laptops - device theft or malware,Distinct,Do not merge,Different assets and threat events
+R005,Microsoft 365 Tenant - account compromise,R005,Microsoft 365 Tenant - account compromise,Aligned provisionally - rating conflict,Keep linked but preserve both source ratings,Same broad scenario; likelihood is 3 in assessment register and 4 in master register
+R006,Source Code Repository - source code exposure,R006,Source Code Repository - unauthorized source code access,Aligned provisionally,Keep linked pending owner review,Same broad asset and exposure theme; confirm whether secrets handling is included
+R007,Employee Laptops - device loss or compromise,R007,Network Firewall - network intrusion,Distinct,Do not merge,Different assets and threat events
+R008,Security Event Logs - delayed incident detection,R008,Backup System - ransomware or backup deletion,Distinct,Do not merge,Different assets and threat events
+R009,Third-Party Supplier Register - supplier security failure,R009,Employee User Accounts - delayed access removal,Distinct,Do not merge,Different assets and threat events
+R010,Production Environment - service disruption and untested recovery,R010,Customer Portal - denial of service,Related availability theme but distinct scenario,Do not merge without documented owner decision,Different asset scope and event; both may be valid separate risks
