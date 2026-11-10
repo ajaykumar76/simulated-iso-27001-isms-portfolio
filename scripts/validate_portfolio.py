@@ -49,12 +49,14 @@ def ids(rows: list[dict[str, str]], key: str, label: str) -> set[str]:
 
 def main() -> int:
     errors = 0
+    assets = read_csv("03-Asset-Inventory/Asset_Inventory.csv")
     master = read_csv("04-Risk-Assessment/Risk_Register.csv")
     assessment = read_csv("04-Risk-Assessment/Risk_Assessment_Register.csv")
     treatment = read_csv("05-Risk-Treatment/Risk_Treatment_Plan.csv")
     soa = read_csv("06-Statement-of-Applicability/Statement_of_Applicability.csv")
     evidence = read_csv("08-Control-Evidence/GRC_Evidence_Tracker.csv")
 
+    asset_ids = ids(assets, "Asset ID", "asset IDs")
     master_ids = ids(master, "Risk_ID", "master risk IDs")
     assessment_ids = ids(assessment, "Risk ID", "assessment risk IDs")
     treatment_ids = ids(treatment, "Risk ID", "treatment risk IDs")
@@ -65,6 +67,12 @@ def main() -> int:
 
     for row in master:
         risk_id = row.get("Risk_ID", "").strip()
+        asset_id = row.get("Asset_ID", "").strip()
+        if asset_id == "TBD":
+            print(f"WARNING: {risk_id}: asset mapping unresolved; do not infer an asset ID")
+        elif asset_id and asset_id not in asset_ids:
+            print(f"ERROR: {risk_id}: asset ID {asset_id} is not present in Asset_Inventory.csv")
+            errors += 1
         try:
             likelihood = int(row["Likelihood"])
             impact = int(row["Impact"])
@@ -125,7 +133,7 @@ def main() -> int:
         print("WARNING: matching IDs across the two registers are not proof of matching scenarios.")
         print("WARNING: review the record-level crosswalk before joining treatment or evidence data.")
 
-    print(f"Records: master={len(master)}, assessment={len(assessment)}, treatment={len(treatment)}, SoA={len(soa)}, GRC evidence={len(evidence)}")
+    print(f"Records: assets={len(assets)}, master={len(master)}, assessment={len(assessment)}, treatment={len(treatment)}, SoA={len(soa)}, GRC evidence={len(evidence)}")
     print(f"Unique evidence IDs checked: {len(evidence_ids)}")
     print(f"Structural errors: {errors}")
     print("NOTE: warnings require human review; this script cannot decide whether risks are duplicates.")
