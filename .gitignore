@@ -1,0 +1,19 @@
+# Temporary and backup files
+*.tmp
+*.bak
+*~
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
