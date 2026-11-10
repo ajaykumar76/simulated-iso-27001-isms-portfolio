@@ -102,3 +102,13 @@ The master risk register uses the methodology's numeric thresholds. Two records 
 
 See [Risk_Register_Crosswalk.csv](Risk_Register_Crosswalk.csv) for the record-by-record comparison of R001–R010 across the two published registers. It deliberately distinguishes provisionally aligned scenarios from distinct scenarios sharing an ID. This is a comparison aid, not an approved canonical ID mapping.
 
+## Risk-to-asset reference corrections
+
+The 20-row master register was compared with `03-Asset-Inventory/Asset_Inventory.csv`. Confirmed asset references were aligned for R011–R017 and R019, including the clear matches for customer contracts (A017), employee records (A015), encryption keys and secrets (A020), authentication service (A012), security event logs (A013), development environment (A018), production environment (A019), and administrator accounts (A011).
+
+Two records are deliberately left unresolved rather than assigned a misleading existing asset:
+- **R018 — Vulnerability Assessment Reports:** no asset with that name exists in the current inventory. A014 is the Vulnerability Scanner, which is not automatically the same asset as assessment reports.
+- **R020 — Customer Support Tickets:** no matching asset exists in the current inventory.
+
+The two unresolved Asset_ID values are marked `TBD` in the master register. Add and approve the missing asset records (including owner, classification, location and CIA rationale) before assigning IDs. The validator now checks risk-to-asset references and warns on `TBD`; it does not invent missing assets.
+
