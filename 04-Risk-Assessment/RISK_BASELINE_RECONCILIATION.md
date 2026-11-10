@@ -97,3 +97,8 @@ The published treatment plan contains ten rows, R001–R010. These identifiers m
 ## Rating terminology correction
 
 The master risk register uses the methodology's numeric thresholds. Two records previously used the label `Moderate` for scores of 8 and 9, while the methodology defines that band as `Medium` (5–9). The labels for R016 (8) and R018 (9) have been corrected to `Medium`. Treatment terminology in the master register has also been normalised from `Mitigate` to the methodology's `Modify` option. This is a terminology correction only; it does not mean any control has been implemented or any risk reduced.
+
+## Machine-readable cross-register crosswalk
+
+See [Risk_Register_Crosswalk.csv](Risk_Register_Crosswalk.csv) for the record-by-record comparison of R001–R010 across the two published registers. It deliberately distinguishes provisionally aligned scenarios from distinct scenarios sharing an ID. This is a comparison aid, not an approved canonical ID mapping.
+
