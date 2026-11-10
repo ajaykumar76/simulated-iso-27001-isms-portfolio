@@ -62,7 +62,8 @@ The audit checklist and NCR/CAPA records are simulated learning artefacts. A fin
 
 ## Known limitations and next work
 
-1. Locate and verify the authoritative treatment-plan source; do not describe an unpublished local file as part of the GitHub repository.\n2. Reconcile the latest local 23-risk baseline with the GitHub files; do not merge conflicting rows by assumption.
+1. Locate and verify the authoritative treatment-plan source; do not describe an unpublished local file as part of the GitHub repository.
+2. Reconcile the latest local 23-risk baseline with the GitHub files; do not merge conflicting rows by assumption.
 3. Resolve known risk mapping/score differences through documented decisions by the project author, not silent edits.
 4. Connect each risk to its treatment, applicable controls, evidence requirements and any related simulated finding/CAPA.
 5. Consolidate duplicate evidence trackers and remove obsolete backups only after comparing their contents.
