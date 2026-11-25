@@ -139,3 +139,17 @@ The leading blank line in `Evidence_Tracker.csv` has been removed. Its records a
 
 The validator checks arithmetic, source-register declarations, and selected cross-register references. A passing workflow is a structural data-quality check only; it is not approval of risk ratings, evidence, controls, audit conclusions, or ISO conformity.
 
+
+
+## Asset inventory update (26 November 2026)
+
+The simulated asset inventory has been expanded from 25 to 27 entries:
+
+| Asset ID | Asset | Owner | Classification | Location | Linked risk |
+|---|---|---|---|---|---|
+| A026 | Vulnerability Assessment Reports | Security Lead | Restricted | Restricted Cloud Repository | Master register R018 |
+| A027 | Customer Support Ticketing Platform | Support Manager | Confidential | Cloud SaaS | Master register R020 |
+
+The master risk register and master risk treatment plan now reference A026 and A027 respectively. The two TBD asset mappings have been removed from the current published master register. The historical notes above describe the earlier repository state before this update.
+
+These are proposed asset records in a fictional scenario. The owner, location, classification and CIA impact values are draft assumptions and require simulated project-owner validation. The mapping resolves the missing-ID data-quality issue; it does not prove that access controls, logging, retention or other treatments have been implemented. R018 and R020 remain open risks with treatment status Proposed - Not Started and residual risk Not Assessed.
