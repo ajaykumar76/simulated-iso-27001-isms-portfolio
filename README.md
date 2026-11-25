@@ -8,7 +8,7 @@ MedSecure Cloud Ltd. is a fictional Malta-based healthcare SaaS provider. This i
 
 - Company context, interested parties and legal/compliance register
 - Proposed ISMS scope
-- 25-row asset inventory
+- 27-row asset inventory
 - Risk methodology and two separate risk datasets
 - Risk treatment plan and a 27-control starter SoA
 - Draft security policies
@@ -33,7 +33,7 @@ The `Risk Register Source` column is included in the treatment plan, SoA and bot
 - The assessment-register R003 backup/restoration scenario and master-register R003 document-permission disclosure scenario are different risks on the same asset.
 - Other repeated IDs also refer to different assets/events; see the crosswalk. Do not merge based on ID alone.
 - R005 has a likelihood conflict (3 in the assessment register, 4 in the master register). Both values are preserved pending a documented owner decision.
-- Master-register R018 (Vulnerability Assessment Reports) and R020 (Customer Support Tickets) have `TBD` asset IDs because the current asset inventory has no corresponding asset records. No substitute asset has been guessed.
+- Master-register R018 (Vulnerability Assessment Reports) and R020 (Customer Support Tickets) are now mapped to newly added simulated assets A026 and A027. Their owners, classifications and locations are draft assumptions pending fictional project-owner review.
 - Residual risk in the assessment register remains `Not Assessed`. Treatment actions remain `Not Started`; evidence remains pending/not collected as recorded.
 - The SoA contains 27 selected controls. It is not a completed review of all 93 Annex A controls.
 - Audit findings and CAPA records are simulated; three CAPA items remain `Open - Simulated`. No closure or effectiveness is claimed.
