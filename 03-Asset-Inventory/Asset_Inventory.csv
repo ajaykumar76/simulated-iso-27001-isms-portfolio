@@ -24,3 +24,5 @@ A022,Security Policies,Document,Information Security Manager,Cloud,Internal,3,4,
 A023,Third-Party Supplier Register,Document,Procurement Owner,Cloud,Confidential,3,4,3,Identified
 A024,Disaster Recovery Procedures,Document,IT Manager,Cloud,Internal,3,5,5,Identified
 A025,Staff Security Training Records,Data,HR Manager,Cloud,Confidential,3,4,3,Identified
+A026,Vulnerability Assessment Reports,Security Document Repository,Security Lead,Restricted Cloud Repository,Restricted,5,4,3,Identified
+A027,Customer Support Ticketing Platform,Cloud Application,Support Manager,Cloud SaaS,Confidential,5,4,4,Identified
