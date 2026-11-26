@@ -38,6 +38,8 @@ Before testing:
 
 ## 4. Verification plan — NCR-005: privileged audit-log protection
 
+**Evidence tracker link:** EV012 — audit-log integrity and privileged access evidence. Keep the tracker status as Not collected / Not reviewed until supporting records are actually obtained and assessed.
+
 **Finding:** A privileged administrator could delete audit logs without independent detection in the illustrative TC-03 scenario.
 
 **Verification objective:** Determine whether privileged log deletion and alteration are prevented or independently detected, and whether protected records remain available.
@@ -54,6 +56,8 @@ Before testing:
 
 ## 5. Verification plan — NCR-006: missing-event detection
 
+**Evidence tracker link:** EV013 — log-forwarding and missing-event detection evidence. Keep the tracker status as Not collected / Not reviewed until supporting records are actually obtained and assessed.
+
 **Finding:** A deliberately removed central audit event did not generate a sequence-gap alert in illustrative TC-05.
 
 **Verification objective:** Determine whether missing critical events are detected, escalated and reconciled.
@@ -69,6 +73,8 @@ Before testing:
 **Closure condition:** The controlled missing-event test generates an alert, the alert reaches the responsible person, response is recorded, and reconciliation identifies the event gap. A successful comparison in a different test does not compensate for a failed missing-event detection test.
 
 ## 6. Verification plan — NCR-007: log buffering and recovery
+
+**Evidence tracker link:** EV014 — log-buffering and recovery-completeness evidence. Keep the tracker status as Not collected / Not reviewed until supporting records are actually obtained and assessed.
 
 **Finding:** An earlier illustrative forwarding interruption resulted in three minutes of audit events missing from central records and unrecoverable from local storage.
 
@@ -128,7 +134,8 @@ Complete this section only after authorised testing:
 ## 10. Related portfolio records
 
 - [A026 Evidence Integrity and Logging Test Matrix](A026_Evidence_Integrity_Test_Matrix.md)
-- [NCR/CAPA Register](../10-NCR-CAPA/NCR_CAPA_Register.csv)
-- [Audit NCR Cross-Reference](../10-NCR-CAPA/Audit_NCR_Cross_Reference.csv)
+- [Evidence Tracker](../08-Control-Evidence/Evidence_Tracker.csv) — EV012 (NCR-005), EV013 (NCR-006) and EV014 (NCR-007); all evidence remains not collected and not reviewed.
+- [NCR/CAPA Register](../10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-005, NCR-006 and NCR-007.
+- [Audit NCR Cross-Reference](../10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — IA-WP-A026-02 findings FIND-A026-LOG-01 to FIND-A026-LOG-03 mapped to NCR-005 to NCR-007.
 
 **End of simulated verification workpaper.**
