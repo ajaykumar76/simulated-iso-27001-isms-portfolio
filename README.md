@@ -39,6 +39,23 @@ The `Risk Register Source` column is included in the treatment plan, SoA and bot
 - Audit findings and CAPA records are simulated; three CAPA items remain `Open - Simulated`. No closure or effectiveness is claimed.
 - Policies, methodology, scope and management-review records remain drafts or pending approval where indicated.
 
+
+## A026 case study — vulnerability report access and employee offboarding
+
+This focused simulated case study follows a restricted information asset through access-control design, audit testing, finding documentation and corrective-action tracking.
+
+**Scenario summary:** A hypothetical sample of 10 former employees contains 2 accounts that remained active for three days after departure. The scenario identifies delayed HR-to-IT departure notifications as the stated root cause and proposes a formal or automated offboarding workflow. A separate illustrative follow-up sample reports 10/10 timely revocations. These are constructed learning scenarios, not real test results or collected organizational evidence.
+
+Related artifacts:
+
+1. [A026 access-control procedure](07-Policies/A026_Vulnerability_Report_Access_Control_Procedure.md) — proposed procedure; draft and not approved or implemented.
+2. [A026 internal audit test workpaper](09-Internal-Audit/A026_Internal_Audit_Test_Workpaper.md) — objective, scope, sample-based test method, illustrative exceptions, root cause, proposed corrective action and limitations.
+3. [Internal audit checklist](09-Internal-Audit/Internal_Audit_Checklist.csv) — entry IA-016, linked to FIND-A026-01.
+4. [NCR/CAPA register](10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-004, open and simulated.
+5. [Audit-to-NCR cross-reference](10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — links IA-WP-A026-01 / FIND-A026-01 to NCR-004.
+
+**Portfolio boundary:** The case study demonstrates documentation and reasoning only. It does not establish that the fictional controls were implemented, that a real audit occurred, or that corrective action was effective in an operating organization. Any follow-up effectiveness conclusion is limited to the hypothetical sample described in the workpaper.
+
 ## Run data-quality checks
 
 From the repository root:
