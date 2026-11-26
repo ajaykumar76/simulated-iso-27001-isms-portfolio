@@ -3,3 +3,6 @@
 "IA-009","F-IA009","NCR-002","Privileged access review evidence gap","Open - Simulated"
 "IA-011","F-IA011","NCR-003","Backup restoration testing evidence gap","Open - Simulated"
 "IA-WP-A026-01","FIND-A026-01","NCR-004","A026 offboarding and delayed access revocation scenario; illustrative sample exception","Open - Simulated"
+"IA-WP-A026-02","FIND-A026-LOG-01","NCR-005","A026 privileged audit-log deletion without independent detection; TC-03 illustrative failure","Open - Simulated"
+"IA-WP-A026-02","FIND-A026-LOG-02","NCR-006","A026 missing-event detection and sequence-gap alert failure; TC-05 illustrative failure","Open - Simulated"
+"IA-WP-A026-02","FIND-A026-LOG-03","NCR-007","A026 earlier log-buffering and recovery gap; three minutes of events unrecoverable in illustrative scenario","Open - Simulated"
