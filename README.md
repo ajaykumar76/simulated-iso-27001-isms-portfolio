@@ -92,3 +92,15 @@ GitHub Actions runs the same structural checks on pushes and pull requests to `m
 ## Disclaimer
 
 This is a fictional educational portfolio. It does not constitute ISO/IEC 27001 certification, legal advice, professional audit delivery, or evidence that a real organisation conforms to the standard. Do not upload real patient, customer, employee or secret data.
+
+
+### A026 extension — approval-history integrity and emergency-access attribution
+
+A further simulated finding, FIND-A026-LOG-04 / NCR-008, addresses privileged deletion of approval amendment history and the inability to reliably attribute a shared emergency-account action. The workpaper documents the evidence limitation, rejects unsupported attribution based only on a shift roster, defines individually attributable PAM-based emergency access and records a simulated closure recommendation after the constructed retest results.
+
+- [FIND-A026-LOG-04 internal audit workpaper](09-Internal-Audit/FIND-A026-LOG-04_Internal_Audit_Workpaper.md) — investigation conclusion, attribution limitation, corrective-action approach, illustrative retest results, residual-risk decision and closure recommendation.
+- [Evidence Tracker](08-Control-Evidence/Evidence_Tracker.csv) — EV015, required evidence not collected / not reviewed.
+- [NCR/CAPA register](10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-008, Open - Simulated.
+- [Audit-to-NCR cross-reference](10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — IA-WP-A026-04 / FIND-A026-LOG-04 / NCR-008.
+
+**Status limitation:** The workpaper's test results and management acceptance are hypothetical exercise assumptions. EV015 remains not collected and not reviewed; NCR-008 remains Open - Simulated in the portfolio register. The simulated closure recommendation is not a real closure or evidence of implemented controls.
