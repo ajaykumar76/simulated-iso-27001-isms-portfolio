@@ -99,6 +99,7 @@ This is a fictional educational portfolio. It does not constitute ISO/IEC 27001 
 A further simulated finding, FIND-A026-LOG-04 / NCR-008, addresses privileged deletion of approval amendment history and the inability to reliably attribute a shared emergency-account action. The workpaper documents the evidence limitation, rejects unsupported attribution based only on a shift roster, defines individually attributable PAM-based emergency access and records a simulated closure recommendation after the constructed retest results.
 
 - [FIND-A026-LOG-04 internal audit workpaper](09-Internal-Audit/FIND-A026-LOG-04_Internal_Audit_Workpaper.md) — investigation conclusion, attribution limitation, corrective-action approach, illustrative retest results, residual-risk decision and closure recommendation.
+- [NCR-008 risk acceptance decision record](09-Internal-Audit/NCR-008_Risk_Acceptance_Decision_Record.md) — separate exercise variant where an executive accepts a remaining Critical residual risk; sets out authority checks, acceptance conditions and why acceptance alone does not establish finding closure.
 - [Evidence Tracker](08-Control-Evidence/Evidence_Tracker.csv) — EV015, required evidence not collected / not reviewed.
 - [NCR/CAPA register](10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-008, Open - Simulated.
 - [Audit-to-NCR cross-reference](10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — IA-WP-A026-04 / FIND-A026-LOG-04 / NCR-008.
