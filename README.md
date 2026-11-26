@@ -36,9 +36,8 @@ The `Risk Register Source` column is included in the treatment plan, SoA and bot
 - Master-register R018 (Vulnerability Assessment Reports) and R020 (Customer Support Tickets) are now mapped to newly added simulated assets A026 and A027. Their owners, classifications and locations are draft assumptions pending fictional project-owner review.
 - Residual risk in the assessment register remains `Not Assessed`. Treatment actions remain `Not Started`; evidence remains pending/not collected as recorded.
 - The SoA contains 27 selected controls. It is not a completed review of all 93 Annex A controls.
-- Audit findings and CAPA records are simulated; three CAPA items remain `Open - Simulated`. No closure or effectiveness is claimed.
+- Audit findings and CAPA records are simulated and remain open unless a record explicitly states otherwise. No closure or effectiveness is claimed.
 - Policies, methodology, scope and management-review records remain drafts or pending approval where indicated.
-
 
 ## A026 case study — vulnerability report access and employee offboarding
 
@@ -54,7 +53,20 @@ Related artifacts:
 4. [NCR/CAPA register](10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-004, open and simulated.
 5. [Audit-to-NCR cross-reference](10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — links IA-WP-A026-01 / FIND-A026-01 to NCR-004.
 
-**Portfolio boundary:** The case study demonstrates documentation and reasoning only. It does not establish that the fictional controls were implemented, that a real audit occurred, or that corrective action was effective in an operating organization. Any follow-up effectiveness conclusion is limited to the hypothetical sample described in the workpaper.
+### A026 extension — evidence integrity and security logging
+
+The case study was extended to examine whether audit evidence itself is protected, complete and recoverable. Three additional simulated findings are tracked: privileged log deletion without independent detection (NCR-005), missing-event detection failure (NCR-006), and unrecoverable events after a forwarding interruption (NCR-007).
+
+Related artifacts:
+
+1. [A026 evidence integrity and logging test matrix](09-Internal-Audit/A026_Evidence_Integrity_Test_Matrix.md) — test scenarios TC-01 to TC-08, illustrative outcomes, findings and evidence requirements.
+2. [A026 corrective-action verification workpaper](09-Internal-Audit/A026_Corrective_Action_Verification_Workpaper.md) — proposed independent verification procedures for NCR-005, NCR-006 and NCR-007, including test steps, expected results, evidence requirements and closure conditions.
+3. [NCR/CAPA register](10-NCR-CAPA/NCR_CAPA_Register.csv) — NCR-005 to NCR-007, all open and simulated.
+4. [Audit-to-NCR cross-reference](10-NCR-CAPA/Audit_NCR_Cross_Reference.csv) — links the logging findings to their respective NCRs.
+
+**Verification status:** The corrective-action verification workpaper is a test plan, not a record of completed testing. Its tests are marked pending. A proposed design, screenshot, management statement or configuration export alone does not establish operating effectiveness. Results should only be marked Pass after authorised testing and review of supporting evidence. The zero-unexplained-gap criterion in this case study is a proposed scenario acceptance criterion, not a universal numeric ISO requirement.
+
+**Portfolio boundary:** The case study demonstrates documentation and reasoning only. It does not establish that the fictional controls were implemented, that a real audit occurred, or that corrective action was effective in an operating organization. All sample sizes, outcomes, timings and test results identified as illustrative are hypothetical.
 
 ## Run data-quality checks
 
@@ -74,6 +86,7 @@ GitHub Actions runs the same structural checks on pushes and pull requests to `m
 - SoA preparation and control-evidence planning
 - Evidence-gap analysis and access-review design
 - Internal audit preparation and simulated corrective-action tracking
+- Evidence integrity, audit-log completeness and recovery verification
 - CSV validation and GitHub Actions automation
 
 ## Disclaimer
